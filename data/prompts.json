@@ -100,5 +100,172 @@
       "Presentations",
       "Scientific communication"
     ]
+  },
+  {
+    "id": "research-question",
+    "title": "Refine a research question",
+    "description": "Turn a broad interest into a clear, answerable question.",
+    "content": "I am interested in [topic] and want to develop a research question for [type of study or project]. Ask me up to five questions about the population, setting, and what I want to understand. Then suggest three focused research questions, explain how they differ, and identify what information I would need to answer each one. Do not assume details I have not provided.",
+    "category": "Research planning",
+    "tags": [
+      "Beginner friendly",
+      "Research questions"
+    ]
+  },
+  {
+    "id": "literature-search",
+    "title": "Plan a literature search",
+    "description": "Find useful search terms and databases for a topic.",
+    "content": "Help me plan a literature search on [topic] for [purpose]. Suggest related terms, synonyms, and a few sample search strings using AND and OR. Recommend types of databases or sources to search and explain how to narrow or broaden the search. Do not invent articles or citations; tell me how to verify anything you suggest.",
+    "category": "Literature review",
+    "tags": [
+      "Beginner friendly",
+      "Search",
+      "Literature"
+    ]
+  },
+  {
+    "id": "read-paper",
+    "title": "Understand a research paper",
+    "description": "Break down an article you provide into its essential parts.",
+    "content": "Explain the following research paper in plain language for someone new to this topic. Describe the question, study design, participants or data, main findings, limitations, and what the authors say the findings mean. Distinguish the authors' claims from your interpretation, and point to the relevant passage for each key point. If the text does not provide an answer, say so.\n\nPaper or excerpt: [paste text or attach the paper]",
+    "category": "Literature review",
+    "tags": [
+      "Beginner friendly",
+      "Reading",
+      "Summary"
+    ]
+  },
+  {
+    "id": "compare-studies",
+    "title": "Compare research studies",
+    "description": "See where a small set of papers agree or differ.",
+    "content": "Compare the studies I provide in a table with columns for research question, design, sample, measures, main findings, and limitations. Then explain important similarities and differences in plain language. Base the comparison only on the supplied texts, mark missing details as 'not reported here,' and do not invent citations.\n\nStudy texts or notes: [paste or attach]",
+    "category": "Literature review",
+    "tags": [
+      "Beginner friendly",
+      "Comparison",
+      "Literature"
+    ]
+  },
+  {
+    "id": "study-design",
+    "title": "Explore study design options",
+    "description": "Consider practical ways to answer a research question.",
+    "content": "My research question is [question]. My available resources and constraints are [describe]. Suggest two or three study designs that could help answer it. For each, explain in plain language what I would do, what it could and could not tell me, likely sources of bias, and practical tradeoffs. Ask for missing details and do not claim a design can establish causation unless its assumptions support that claim.",
+    "category": "Research planning",
+    "tags": [
+      "Beginner friendly",
+      "Study design",
+      "Methods"
+    ]
+  },
+  {
+    "id": "interview-questions",
+    "title": "Draft interview questions",
+    "description": "Create open-ended questions for a qualitative interview.",
+    "content": "Help me draft an interview guide about [topic] for [participant group]. My research aim is [aim]. Suggest an opening question, six to eight open-ended questions with optional follow-up probes, and a closing question. Use respectful, neutral language and flag any questions that might be leading or sensitive. Explain that I should pilot and adapt the guide to my study.",
+    "category": "Data collection",
+    "tags": [
+      "Beginner friendly",
+      "Interviews",
+      "Qualitative"
+    ]
+  },
+  {
+    "id": "survey-review",
+    "title": "Review a survey question",
+    "description": "Spot confusing, leading, or double-barreled wording.",
+    "content": "Review these draft survey questions for unclear language, leading assumptions, double-barreled questions, and answer choices that may overlap or leave gaps. For each issue, explain why it matters and propose a simpler revision. Preserve what each question is intended to measure and tell me where I need to make a decision.\n\nQuestions and response options: [paste questions]",
+    "category": "Data collection",
+    "tags": [
+      "Beginner friendly",
+      "Surveys",
+      "Editing"
+    ]
+  },
+  {
+    "id": "understand-method",
+    "title": "Understand a research method",
+    "description": "Learn what a method does and when it might be useful.",
+    "content": "Explain [research method] to a researcher who is new to it. Describe what question it helps answer, the basic steps, key assumptions, a small example, and common mistakes. Explain important terms as you introduce them, and suggest questions I should ask a methods expert before using it in my own study.",
+    "category": "Learning",
+    "tags": [
+      "Beginner friendly",
+      "Methods",
+      "Explainer"
+    ]
+  },
+  {
+    "id": "analysis-plan",
+    "title": "Sketch an analysis plan",
+    "description": "Organize the steps between a research question and an analysis.",
+    "content": "Help me outline a preliminary analysis plan for [research question]. My study design is [design], and the data I expect to have are [describe variables and sample]. Explain the steps in plain language: data checks, descriptive summaries, possible analysis approaches, assumptions, and how I might present uncertainty. Identify missing information and decisions that need a statistician or methods expert. Do not make up results or treat this as a final statistical plan.",
+    "category": "Analysis",
+    "tags": [
+      "Beginner friendly",
+      "Planning",
+      "Methods"
+    ]
+  },
+  {
+    "id": "interpret-table",
+    "title": "Make sense of a results table",
+    "description": "Explain a table without overstating what it shows.",
+    "content": "Help me understand the results table below in plain language. Explain what each column means, summarize the main patterns using the values shown, and distinguish estimates from uncertainty. Point out what cannot be concluded from the table alone. If labels, units, sample sizes, or methods are missing, ask for them rather than guessing.\n\nTable and relevant methods: [paste here]",
+    "category": "Analysis",
+    "tags": [
+      "Beginner friendly",
+      "Results",
+      "Explainer"
+    ]
+  },
+  {
+    "id": "limitations",
+    "title": "Think through limitations",
+    "description": "Identify plausible limitations without inventing problems.",
+    "content": "Help me assess the limitations of this study description: [paste description]. Separate limitations supported by the information provided from questions that need more detail. For each supported limitation, explain how it might affect interpretation and suggest a proportionate way to describe it. Avoid claiming a flaw is present without evidence.",
+    "category": "Analysis",
+    "tags": [
+      "Beginner friendly",
+      "Critical thinking",
+      "Limitations"
+    ]
+  },
+  {
+    "id": "plain-language-summary",
+    "title": "Write a plain-language summary",
+    "description": "Explain research findings to a non-specialist audience.",
+    "content": "Using only the material below, draft a plain-language summary for [audience] in about [number] words. Explain why the research matters, what was done, what was found, and the main limitations. Define necessary technical terms and preserve uncertainty. Do not add findings or claims that are not in the source.\n\nSource material: [paste text]",
+    "category": "Communication",
+    "tags": [
+      "Beginner friendly",
+      "Plain language",
+      "Summary"
+    ]
+  },
+  {
+    "id": "feedback-draft",
+    "title": "Get feedback on a draft",
+    "description": "Find places where your research writing could be clearer.",
+    "content": "Give constructive feedback on the research text below for [intended audience]. First summarize its main message in one or two sentences. Then identify the three most important opportunities to improve clarity, structure, or support for claims, with a specific suggestion for each. Do not invent references or change the meaning of the findings.\n\nDraft: [paste text]",
+    "category": "Communication",
+    "tags": [
+      "Beginner friendly",
+      "Writing",
+      "Feedback"
+    ]
+  },
+  {
+    "id": "learn-ai",
+    "title": "Learn how to use an AI assistant",
+    "description": "Get a practical introduction tailored to your research work.",
+    "content": "I am a researcher with little experience using AI assistants. My field is [field], and a task I often do is [task]. Explain in plain language what an AI assistant could help with, where it may make mistakes, and how I can check its work. Give me three small example requests I can adapt, and explain what information I should avoid sharing if it is confidential or identifiable.",
+    "category": "Learning",
+    "tags": [
+      "Beginner friendly",
+      "AI basics",
+      "Getting started"
+    ]
   }
 ]
