@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": "The thoughtful editor",
+    "description": "Give your writing a sharper, more human voice.",
+    "content": "Act as an experienced editor. Improve the clarity, flow, and structure of the following text while preserving my voice. Explain the most important changes you made.\n\nText: [paste your text]",
+    "category": "Writing",
+    "tags": [
+      "Editing",
+      "Clarity"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Explore an idea",
+    "description": "Turn a rough thought into something worth pursuing.",
+    "content": "Help me explore this idea: [describe idea]. Ask clarifying questions, identify the strongest opportunities, and suggest three distinct directions I could take it.",
+    "category": "Brainstorming",
+    "tags": [
+      "Ideation",
+      "Strategy"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Explain it simply",
+    "description": "Make complex topics easier to understand.",
+    "content": "Explain [topic] to someone with no prior experience. Start with an intuitive analogy, then build toward the key details. Finish with a short example.",
+    "category": "Learning",
+    "tags": [
+      "Explainer",
+      "Research"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Code review partner",
+    "description": "Find issues and make your code more maintainable.",
+    "content": "Review the following code for correctness, readability, security, and performance. Prioritize your findings and suggest concrete improvements.\n\nCode: [paste code]",
+    "category": "Development",
+    "tags": [
+      "Code review",
+      "Engineering"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "The research brief",
+    "description": "Get oriented on a new subject, fast.",
+    "content": "Create a concise research brief on [topic]. Cover the fundamentals, major debates, open questions, and useful directions for further reading. Clearly distinguish facts from uncertainty.",
+    "category": "Research",
+    "tags": [
+      "Research",
+      "Summary"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Find the right words",
+    "description": "Write a considered message for any situation.",
+    "content": "Help me write a [type of message] to [recipient]. The context is [context], and the tone should be [tone]. Give me three options with different levels of formality.",
+    "category": "Writing",
+    "tags": [
+      "Communication",
+      "Templates"
+    ]
+  }
+]

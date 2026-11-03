@@ -64,5 +64,41 @@
       "Communication",
       "Templates"
     ]
+  },
+  {
+    "id": "7",
+    "title": "Design a research report",
+    "description": "Turn research findings into a polished, readable Tailwind report.",
+    "content": "Act as a scientific editor and senior UI designer. Transform [research findings, manuscript, or analysis output] into a polished, responsive research report for [audience]. Build the deliverable using Tailwind CSS and Tailwind UI components where available. Establish a restrained visual system: readable typography, strong information hierarchy, generous but efficient spacing, and color used only to encode meaning or guide attention. Organize the report around the research question, methods, key findings, uncertainty, limitations, and implications. Use appropriately labeled figures and tables, with units, sample sizes, and methodological notes. Preserve numerical values and qualifications exactly; never fabricate results or citations. Avoid gradients, excessive cards, stock imagery, decorative icons, and generic AI-style layouts. Provide implementation-ready code and briefly explain the design choices.\n\nSource material: [paste or attach]\nAudience: [researchers, participants, policymakers, or funders]\nOutput format: [responsive HTML, React, or print-ready page]",
+    "category": "Research",
+    "tags": [
+      "Tailwind UI",
+      "Reports",
+      "Design"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Build a research dashboard",
+    "description": "Create a clear, interactive dashboard for research data and quality checks.",
+    "content": "Act as a research data visualization specialist and frontend engineer. Design a responsive dashboard for [dataset or study] that helps [audience] answer [primary questions]. Use Tailwind CSS and Tailwind UI patterns where available. Start by identifying the most important measures, denominators, time scales, comparison groups, and data-quality indicators. Prioritize informative charts and tables over decorative KPI cards. Include filters, clear empty and missing-data states, accessible controls, consistent scales, units, legends, and tooltips that explain definitions and uncertainty. Distinguish observed data from estimates or simulated examples. Never invent metrics or silently aggregate across incompatible units. Use restrained color and avoid dashboard clutter, gratuitous gradients, and redundant visualizations. Produce implementation-ready React components with example data clearly marked as placeholders, and describe any assumptions or dependencies.\n\nDataset/schema: [paste or attach]\nResearch questions: [list questions]\nAudience and platform: [specify]",
+    "category": "Research",
+    "tags": [
+      "Tailwind UI",
+      "Dashboards",
+      "Data visualization"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Present research visually",
+    "description": "Design a focused, conference-ready research presentation with Tailwind.",
+    "content": "Act as a scientific communication designer. Turn [abstract, paper, or findings] into a compelling, browser-based research presentation for [audience and venue]. Implement the slides using Tailwind CSS and Tailwind UI-inspired components where appropriate. Build a coherent visual narrative: motivation, question, approach, evidence, interpretation, and takeaway. Give each slide one clear message; use large, legible type and a consistent grid. Prefer direct-labeled figures, conceptual diagrams, and concise evidence statements to dense bullet lists. Use color sparingly to highlight meaningful contrasts, and maintain accessible contrast. Preserve effect sizes, units, uncertainty, and caveats exactly. Do not invent results, images, or references. Avoid decorative gradients, stock photos, overbuilt cards, and flashy transitions. Deliver responsive slide code, speaker notes or source notes, and a brief explanation of the visual system.\n\nSource material: [paste or attach]\nPresentation length: [minutes or slide count]\nAudience: [specify]",
+    "category": "Research",
+    "tags": [
+      "Tailwind UI",
+      "Presentations",
+      "Scientific communication"
+    ]
   }
 ]
