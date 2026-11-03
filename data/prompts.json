@@ -280,5 +280,18 @@
       "Cognitive assessment",
       "Study design"
     ]
+  },
+  {
+    "id": "interpret-power-analysis",
+    "title": "Interpret a power analysis",
+    "description": "Understand a power analysis from a screenshot or pasted output.",
+    "content": "Help me understand this power analysis in plain language. I am a researcher and may be unfamiliar with statistical power.\n\nPower analysis output: [attach a screenshot or paste the output here]\nResearch question and study design, if available: [describe or leave blank]\nSoftware or calculator used, if known: [name and version, or leave blank]\n\nFirst, list the values and labels you can actually read from the output. If anything in a screenshot is unclear, say so and ask me to clarify rather than guessing. Explain what the analysis is estimating or calculating and identify the statistical test, effect size and its scale, alpha, desired or achieved power, sample size, allocation, and whether the test is one- or two-sided when those are shown. Clearly distinguish given inputs from calculated outputs, and explain whether the sample size is per group or total only when the output or documentation supports that interpretation.\n\nExplain the result in the context of my study, including the assumptions that influence it and what would change if the expected effect, alpha, or sample size were different. Note any missing information needed to interpret or reproduce it. Explain that power depends on the assumed effect size and design, and that it does not establish the probability that a hypothesis is true or guarantee a significant result. Distinguish planning power from post-hoc power when relevant. End with a short plain-language summary I can adapt, clearly labeled as a draft, and questions to discuss with a statistician. Do not invent values, infer design details that are not shown, or claim the assumptions are satisfied without evidence.",
+    "category": "Analysis",
+    "tags": [
+      "Beginner friendly",
+      "Power analysis",
+      "Statistics",
+      "Interpretation"
+    ]
   }
 ]
