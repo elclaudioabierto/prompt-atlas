@@ -9,3 +9,5 @@ Edit `data/prompts.json`, the single source of truth. Each prompt has a unique `
 ## Run and deploy
 
 Run `npm install` and `npm run dev`, then open http://localhost:3000. Run `npm run build` to check the production build. Deploy to Vercel with `vercel deploy --prod`.
+
+The GitHub Actions workflow deploys `main` to GitHub Pages when Pages is configured to use GitHub Actions. It builds the site with the `/prompt-atlas` base path.
