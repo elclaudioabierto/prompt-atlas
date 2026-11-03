@@ -267,5 +267,18 @@
       "AI basics",
       "Getting started"
     ]
+  },
+  {
+    "id": "design-m2c2kit-assessment",
+    "title": "Design an m2c2kit assessment",
+    "description": "Plan a mobile-friendly cognitive assessment using the official m2c2kit documentation.",
+    "content": "Help me design a cognitive assessment using m2c2kit. I am a researcher and may be new to programming. First review the official documentation at https://m2c2-project.github.io/m2c2kit-docs/ and cite the specific documentation pages you use. If you cannot access the documentation, say so and ask me to provide the relevant pages; do not invent APIs, package names, commands, or capabilities.\n\nMy research goal: [describe the question or cognitive ability]\nParticipants and setting: [describe the population and where they will take it]\nTask idea: [describe the stimuli, instructions, and responses, or say you need help]\nTarget devices and accessibility needs: [describe]\nExperience and available technical support: [describe]\n\nStart by asking the most important clarifying questions. Then suggest whether an existing assessment can be configured or a new one should be developed, and explain the tradeoffs. Outline the participant experience, instructions and practice, trial flow, stimuli and responses, timing, scoring, and the data to record. Identify configurable parameters and trial data using the documented schemas where relevant. Explain how to prototype and test using the current tutorials and CLI, and describe options for deployment. Give an implementation outline or a small documented code example only if useful, explaining technical terms in plain language. Include a practical testing checklist covering accessibility, device differences, missing or invalid responses, data quality, and pilot testing. Separate documented features from suggestions and assumptions. Do not claim the resulting assessment is validated; identify what would require expert review and empirical validation.",
+    "category": "Research planning",
+    "tags": [
+      "Beginner friendly",
+      "m2c2kit",
+      "Cognitive assessment",
+      "Study design"
+    ]
   }
 ]
